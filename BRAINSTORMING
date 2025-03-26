@@ -1,0 +1,26 @@
+3. Relatório de Brainstorming
+Para encontrar as melhores soluções, realizamos uma sessão de brainstorming com especialistas da área e potenciais usuários do sistema. As principais ideias e discussões foram registradas abaixo.
+3.1 Objetivo do Brainstorming
+•	Identificar possíveis soluções para os problemas enfrentados nos estacionamentos.
+•	Explorar tecnologias que possam ser aplicadas para automação e segurança.
+•	Avaliar o impacto financeiro e operacional da implementação dessas soluções.
+3.2 Ideias Levantadas
+•	Automação da Entrada e Saída
+•	Uso de OCR (Reconhecimento de Placas) para liberar o acesso automaticamente.
+•	Opção de QR Code para clientes recorrentes.
+•	Cancelas automáticas controladas pelo sistema.
+•	Pagamentos Modernizados
+•	Pagamento digital via aplicativo ou site antes da saída.
+•	Totens de autoatendimento para pagamento rápido com cartão ou Pix.
+•	Assinaturas mensais para clientes recorrentes.
+•	Monitoramento Inteligente de Vagas
+•	Sensores para detectar a ocupação das vagas.
+•	Painéis digitais e aplicativo mostrando disponibilidade em tempo real.
+•	Integração com assistentes de voz para facilitar a busca por vagas.
+•	Segurança e Controle de Acesso
+•	Câmeras com reconhecimento facial e de placas.
+•	Integração com bancos de dados de veículos roubados.
+•	Histórico de entradas e saídas
+•	Gestão e Relatórios
+3.3 Conclusão do Brainstorming
+Após discutir todas as ideias, definimos um escopo inicial que prioriza soluções rápidas, eficientes e de fácil implementação. Algumas ideias serão testadas em um protótipo antes da implementação final.
