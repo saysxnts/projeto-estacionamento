@@ -1,1 +1,32 @@
+Lista de Requisitos para um Sistema de Automação de Estacionamento
+1. Requisitos Funcionais (RF)
+São as funcionalidades que o sistema deve possuir para atender às necessidades dos usuários e administradores do estacionamento.
 
+RF01 – O sistema deve permitir o cadastro de veículos e clientes (mensalistas, avulsos e conveniados).
+RF02 – Deve haver um controle automatizado de entrada e saída de veículos, utilizando leitores de placas (OCR) e/ou QR Code.
+RF03 – O sistema deve registrar a data e hora de entrada e saída de cada veículo.
+RF04 – Deve permitir diferentes métodos de pagamento (dinheiro, cartão, Pix, boleto e pagamento via aplicativo).
+RF05 – O sistema deve gerar tickets digitais para controle de veículos avulsos.
+RF06 – Deve oferecer integração com cancelas automáticas para liberar ou bloquear a passagem dos veículos.
+RF07 – O sistema deve exibir, em tempo real, a quantidade de vagas disponíveis no estacionamento.
+RF08 – Deve possuir sensores para monitoramento da ocupação de vagas.
+RF09 – Deve permitir a emissão de relatórios gerenciais com dados sobre ocupação, tempo médio de permanência e faturamento.
+RF10 – Deve oferecer um painel administrativo para gestão do estacionamento, com controle de usuários e permissões.
+RF11 – O sistema deve enviar notificações e alertas para os clientes sobre tempo restante, vencimento de mensalidades e descontos.
+RF12 – Deve permitir o pagamento antecipado e a reserva de vagas por meio de aplicativo ou site.
+RF13 – Deve gerar comprovantes de pagamento e enviar por e-mail ou SMS.
+RF14 – O sistema deve permitir integração com sistemas externos de gestão financeira e ERP.
+
+2. Requisitos Não Funcionais (RNF)
+São características técnicas que garantem a qualidade, desempenho e segurança do sistema.
+
+RNF01 – O sistema deve ser responsivo e acessível em dispositivos móveis e desktop.
+RNF02 – Deve possuir uma interface amigável e intuitiva para os usuários.
+RNF03 – Deve suportar alta demanda e ser escalável para diferentes tamanhos de estacionamento.
+RNF04 – O sistema deve garantir alta disponibilidade, funcionando 24/7 sem interrupções.
+RNF05 – Deve ter segurança reforçada, utilizando criptografia para proteger dados sensíveis dos usuários.
+RNF06 – Deve estar em conformidade com a LGPD (Lei Geral de Proteção de Dados).
+RNF07 – Deve permitir backup automático dos dados para evitar perda de informações.
+RNF08 – O tempo de resposta do sistema deve ser inferior a 3 segundos para qualquer operação.
+RNF09 – O sistema deve permitir integração com câmeras de monitoramento para reforçar a segurança.
+RNF10 – Deve possibilitar a personalização de tarifas e horários de funcionamento do estacionamento.
