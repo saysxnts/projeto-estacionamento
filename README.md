@@ -16,13 +16,40 @@ Desenvolver um sistema completo e integrado que permita a automação de estacio
 - **Segurança e Controle:** Monitoramento por câmeras e histórico detalhado de movimentações.  
 
 #### **4. Tecnologias Utilizadas**  
-A desenvolver  
+O sistema de automação de estacionamentos será desenvolvido com um conjunto de tecnologias modernas e robustas que garantem escalabilidade, desempenho e segurança. As principais tecnologias previstas são:
+- Frontend (Interface Web e Mobile)
+- React.js: para construção de interfaces web responsivas e interativas.
+- React Native: para desenvolvimento do aplicativo móvel com base em uma única base de código.
+- Tailwind CSS: para estilização rápida e consistente.
+- Backend (Lógica e Integrações)
+- Node.js com Express.js: para criação de APIs RESTful, garantindo desempenho e facilidade de manutenção.
+- Socket.IO: para comunicação em tempo real (ex: status de vagas e entrada/saída de veículos).
+  
+**Banco de Dados**
+- PostgreSQL: banco de dados relacional robusto, ideal para lidar com estruturas complexas e relacionamentos.
+- Integrações e Funcionalidades Específicas
+- OCR (Reconhecimento de Placas): com bibliotecas como Tesseract.js ou integração com serviços externos de OCR.
+- API de Pagamento (ex: Pix, Mercado Pago, Stripe): para facilitar pagamentos via QR Code ou diretamente no app.            
+- Firebase: para autenticação, notificações push e possível backup em tempo real.
+- Raspberry Pi + Câmeras IP: para automação de entrada e saída com sensores e câmeras de vigilância.
 
 #### **5. Público-Alvo**  
-A desenvolver
+O sistema é voltado para os seguintes perfis de público:
+- Empresas de gestão de estacionamentos (shoppings, hospitais, aeroportos, centros comerciais e prédios corporativos), que desejam automatizar o controle de vagas, pagamentos e fluxo de veículos.
+- Usuários finais (motoristas) que frequentam esses locais e buscam uma experiência mais ágil, segura e tecnológica para estacionar, pagar e sair do local.
+- Síndicos e administradores de condomínios residenciais, que desejam modernizar o acesso de moradores e visitantes.
+- Pequenos estacionamentos privados, que querem se digitalizar sem altos custos iniciais.
+
+O sistema será projetado para ser intuitivo e acessível, tanto para os operadores quanto para os clientes finais, promovendo maior usabilidade e satisfação.
 
 #### **6. Benefícios Esperados**  
-A desenvolver 
+A implementação do sistema de automação de estacionamento proporcionará diversos benefícios, tais como:
+- Agilidade no processo de entrada e saída: reduzindo filas e eliminando a necessidade de controle manual.
+- Redução de custos operacionais: menos necessidade de funcionários operando cancelas, caixa, ou controle de acesso.
+- Melhora na experiência do usuário: o cliente pode pagar pelo app, saber se há vagas disponíveis e receber notificações.
+- Controle e segurança: registros automáticos de entrada/saída, integração com câmeras, histórico de uso.
+- Gestão centralizada: dashboards com dados em tempo real, controle de faturamento, relatórios de uso e movimentação.
+- Sustentabilidade e digitalização: eliminação de tickets de papel e processos manuais.
 
 #### **7. Diferenciais do Sistema**  
 ✅ Interface intuitiva e responsiva para web e mobile.  
