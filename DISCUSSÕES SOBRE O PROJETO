@@ -1,0 +1,21 @@
+Discussão 1 – Matriz de Rastreabilidade (Necessidades x Características)
+Durante a criação da Matriz de Rastreabilidade, minha principal preocupação foi garantir que cada necessidade essencial identificada no escopo fosse devidamente atendida por pelo menos uma funcionalidade do sistema. Essa rastreabilidade me permite ter confiança de que nenhuma necessidade crítica será ignorada ao longo do desenvolvimento e facilita muito a validação do sistema junto aos usuários e stakeholders.
+
+Por exemplo, a necessidade de reduzir o tempo de entrada e saída está diretamente associada à característica de Controle de Acesso Automatizado, que será implementada com leitura automática de placas (OCR) e QR Code. Essa funcionalidade elimina filas e o contato humano, agilizando o fluxo de veículos.
+
+Já a facilidade de pagamento será garantida tanto pelo Aplicativo Móvel quanto pelo Sistema de Pagamento Integrado, garantindo ao usuário múltiplas formas de realizar o pagamento de forma prática e segura. Refletir sobre isso me fez entender que uma necessidade pode exigir mais de uma característica para ser plenamente satisfeita.
+
+Esse cruzamento de informações também foi importante para visualizar quais características impactam mais de uma necessidade, ajudando na priorização futura. Além disso, facilita a verificação posterior: se uma necessidade não estiver vinculada a uma característica, o sistema estará incompleto.
+
+Discussão 2 – Lista de Características (Priorizada X Esforço X Risco X Baseline)
+Na montagem da lista priorizada de características, utilizei uma matriz simples que cruza quatro fatores: prioridade, esforço de implementação, risco e se faz parte do baseline (versão mínima viável).
+
+A primeira reflexão importante foi sobre prioridade. Eu avaliei quais funcionalidades impactariam diretamente a experiência do usuário final e a operação do estacionamento. Por isso, o Controle de Acesso Automatizado, o Aplicativo Móvel e o Sistema de Pagamento Integrado foram classificados como de alta prioridade, pois sem eles o sistema não entrega valor real.
+
+O esforço foi analisado com base no meu conhecimento técnico e na complexidade de cada funcionalidade. Por exemplo, percebi que desenvolver o Aplicativo Móvel teria um alto esforço devido à necessidade de múltiplas integrações (pagamento, reserva, geolocalização).
+
+Quanto ao risco, considerei a probabilidade de falhas e dependência de tecnologias externas. O Sistema de Pagamento Integrado, por depender de APIs externas (como Pix e carteiras digitais), tem um risco maior comparado, por exemplo, aos Painéis Informativos, que envolvem apenas exibição de dados locais.
+
+Por fim, o campo baseline me ajudou a definir o que é essencial para uma primeira entrega funcional do sistema. Com isso, pude separar o que pode ser adicionado em versões futuras sem comprometer o funcionamento básico.
+
+Essa reflexão me deu mais clareza na priorização e foi essencial para definir o cronograma e os sprints no Trello.
